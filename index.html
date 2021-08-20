@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container1">
+        <h1>QR Code Generator</h1>
+        <h3>Create your own QR codes</h3>
+
+        <input type="text" id="inputBox" placeholder="Your text here..."> <br>
+
+        <input type="radio" id="size1" name="size" checked>
+        <label>Small</label>
+        <input type="radio" id="size2" name="size">
+        <label>Medium</label>
+        <input type="radio" id="size3" name="size">
+        <label>Large</label> <br>
+
+        <button id="btn">Generate</button>
+    </div>
+
+    <br>
+
+    <div class="container2">
+        <p id="noteTxt">Your QR code will appear here...</p>
+        <a href="" target="_blank" id="qrLink"><img src="" id="qrImg"></a>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
