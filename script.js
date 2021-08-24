@@ -18,7 +18,7 @@ function generateBtn() {
         alert("Enter some text...");
     }
     else {
-        document.getElementById("noteTxt").remove();
+        document.getElementById("noteTxt").style.display = "none";
         document.getElementById("qrImg").style.display = "inline-block";
 
         // https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Example
