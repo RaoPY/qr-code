@@ -8,24 +8,20 @@ body {
 }
 
 .container1 {
-    position: absolute;
-    top: 33%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: auto;
+    margin-top: 8vh;
     text-align: center;
+    width: 290px;
     padding: 20px;
     background: white;
     border-radius: 10px;
 }
 
 .container2 {
-    position: absolute;
-    top: 78%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 5px;
+    margin: auto;
+    margin-top: 10px;
     text-align: center;
-    width: 280px;
+    width: 290px;
     height: 148px;
     padding: 20px;
     background: white;
